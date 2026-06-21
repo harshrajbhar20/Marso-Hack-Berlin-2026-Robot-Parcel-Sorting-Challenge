@@ -1,5 +1,15 @@
 # Technical Approach — WarehouseSort Multi-Diffusion Policy
 
+Final accuracy achieved :
+
+--------------------------------------------------
+    easy    :  56.25%  (w=0.2)
+    medium  :  17.19%  (w=0.3)
+    hard    :  12.50%  (w=0.5)
+    FINAL   :  22.66%
+--------------------------------------------------
+
+
 > A deep dive into the design decisions, implementation details, and ablation insights behind our enhanced RGB Diffusion Policy for the Berlin Marso Hackathon 2026.
 
 ---
