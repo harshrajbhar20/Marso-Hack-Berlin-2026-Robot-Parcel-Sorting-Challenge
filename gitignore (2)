@@ -1,0 +1,58 @@
+# ============================================================
+# Berlin Marso Hackathon 2026 — Enhanced RGB Diffusion Policy
+# ============================================================
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# --- Training artifacts ---
+checkpoints/
+runs/
+wandb/
+outputs/
+lightning_logs/
+*.pt
+*.pth
+*.ckpt
+!checkpoints/.gitkeep
+
+# --- Demo data (large, download separately) ---
+il/demos/*/*.h5
+il/demos/*/*.json
+
+# --- Media (generated) ---
+media/*.mp4
+media/*.gif
+
+# --- Environment ---
+.env
+.env.*
+*.lock
+pixi.lock
+
+# --- IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- Notebooks ---
+.ipynb_checkpoints/
+
+# --- Misc ---
+*.log
+loss_history.npy
+eval_scores.json
+norm_stats.json
