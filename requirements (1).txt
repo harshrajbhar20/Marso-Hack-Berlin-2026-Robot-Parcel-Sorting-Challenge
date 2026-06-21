@@ -1,0 +1,27 @@
+# Python dependencies for the enhanced RGB Diffusion Policy
+# Core ML
+torch>=2.0.0
+torchvision>=0.15.0
+numpy>=1.24.0
+
+# Diffusion & Training
+diffusers>=0.25.0
+accelerate>=0.20.0
+
+# Simulation & Environment
+mani-skill>=3.0.0
+sapien>=3.0.0
+gymnasium>=1.0.0
+
+# Data & Config
+h5py>=3.8.0
+hydra-core>=1.3.0
+omegaconf>=2.3.0
+pyyaml>=6.0
+
+# Utilities
+tqdm>=4.64.0
+transforms3d>=0.4.0
+
+# Optional: Kaggle demo download
+kagglehub>=0.1.0
