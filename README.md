@@ -1,5 +1,7 @@
 # WarehouseSort Multi-Diffusion Policy — Berlin Marso Hackathon 2026
 
+Notebook and results link : https://www.kaggle.com/code/harshrajbhar/marso-hack-berlin-2026-robot-parcel-sorting-chal
+
 > An enhanced RGB Diffusion Policy for the **WarehouseSort** robot parcel sorting challenge. The agent must read tag colors from a 128×128 RGB image, plan pick-and-place motions, and sort 2–6 parcels into color-matched bins — including the **hard** difficulty where bin sides swap in 50% of episodes.
 
 ---
